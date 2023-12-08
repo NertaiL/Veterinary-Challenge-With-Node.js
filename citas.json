@@ -1,0 +1,26 @@
+[
+    {
+        "id": "d481482f-1c3e-4549-bf22-4b0b254defea",
+        "animalName": "Esnupi",
+        "age": "10 años",
+        "typeOfAnimal": "Cocker Spaniel",
+        "animalColor": "Cafe",
+        "disease": "Ninguna"
+    },
+    {
+        "id": "fb88152a-4469-4a6a-bd1e-2942926c164c",
+        "animalName": "Simba",
+        "age": "3 años",
+        "typeOfAnimal": "Fox terrier",
+        "animalColor": "Blanco con manchas cafe",
+        "disease": "Alergico al polvo"
+    },
+    {
+        "id": "1e61a26c-9c75-4b29-805d-7f89321fc5f4",
+        "animalName": "Gaspar",
+        "age": "4 años",
+        "typeOfAnimal": "San Bernardo",
+        "animalColor": "Blanco con negro",
+        "disease": "Ninguna enfermedad"
+    }
+]
