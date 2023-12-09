@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 
 const register = (animalName,age,typeOfAnimal,animalColor,disease) =>{
     const citas = JSON.parse(readFileSync('citas.json','utf8'))
-    const id = uuid()
+    const id = uuid() /* el uuid de la libreria nos genera un identificador unico automatico que son de 36 caracteres en total, la cual estan compuesta por 4 guiones que se utilizan como separador */
 
     if(!animalName){
         console.log("Enter your name of the animal🤷‍♀️")
@@ -40,8 +40,8 @@ const register = (animalName,age,typeOfAnimal,animalColor,disease) =>{
 }
 
 const readLogs = () =>{
-    const citasRead = JSON.parse(readFileSync("citas.json","utf-8"))
-    console.log(citasRead)
+    const citasRead = JSON.parse(readFileSync("citas.json","utf-8"))/* aca estoy leyendo el contenido de citas.json y como citas.json es string entonces tengo que pasarlo a objeto y para eso aplico el parse , para luego aplicar el console.log y me lo muestre como objeto  */
+    console.log(citasRead)/* entonces en la terminal al hacer node index.js readLogs se estaria leyendo lo que tengo en mi archivo citas.json pero en objeto no en string yaque por eso se hiso la transformacion JSON.parse  */
 }
 
 export {register,readLogs};
